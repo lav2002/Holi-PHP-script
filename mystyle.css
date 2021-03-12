@@ -1,0 +1,27 @@
+
+body{background-image:url("mybg.gif")}
+img{margin:0 auto}
+.msg{text-align:center;color:#ff4f81;font-size:40px;font-family:Impact,Charcoal,sans-serif;margin-top:10px;-webkit-animation:colorchange 20s infinite alternate}@-webkit-keyframes colorchange{0%{color:#ff4c4c}10%{color:#8e44ad}20%{color:#1abc9c}30%{color:#d35400}40%{color:#fb8a2e}50%{color:#34495e}60%{color:#fd5c63}70%{color:#2980b9}80%{color:#f1c40f}90%{color:#2980b9}100%{color:#ed1b2e}}
+.msg2{text-align:center;color:#00a78e;font-weight:bold;font-family:"Comic Sans MS",cursive,sans-serif;font-size:30px;margin-bottom:10px}
+#box{background-color:#ff4f81;position:relative;bottom:0;z-index:999}
+.box2{padding:5px 0}
+.mybtn{background-color:#00bce4;color:#ffff;border:0}
+.mybtn:hover{background-color:#0bf;color:#ffff}
+.myform{text-align:center}
+.myform input[type="text"]{width:350px}
+.sb-title{color:#fff;font-weight:bold;font-family:"Comic Sans MS",cursive,sans-serif;font-size:18px}
+.sb-icon{font-family:"Comic Sans MS",cursive,sans-serif;font-size:16px;display:inline-block;margin-right:5px}
+.sb-icon a{color:#ffff;padding:3px 7px;border-radius:5px}
+.sb-icon a:hover{color:#ffff;text-decoration:none}
+.whatsapp{background-color:#4dc247}
+.whatsapp:hover{background-color:#3fac39}
+.facebook{background-color:#3b5998}
+.facebook:hover{background-color:#324b81}
+.cart{background-color:#00a78e}
+.gy-ads {text-align:center}
+@media(max-width:992px){
+.mytext{margin:auto}
+.sb-title{display:block;margin:10px;text-align:center}
+.sb-share{display:block;margin:5px 0}
+.tt{text-align:center}
+}
